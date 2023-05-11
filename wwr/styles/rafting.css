@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@300&display=swap');
+
+:root { 
+    --primary-color: 
+    --secondary-color:
+    --accent1-color:
+    --accent2-color:
+    --heading-font: 
+    --paragraph-font: 
+    --nav-background-color: 
+    --nav-link-color: 
+    --nav-hover-link-color:
+    --nav-hover-background-color: 
+}
+
+* { 
+    margin: 0;
+    padding: 0%;
+}
+
+h1 { 
+    position: absolute;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+} 
+
+header { 
+    padding: 20px; 
+    background-color: var(--accent1-color);
+}
+
+nav { 
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a { 
+    display: block; 
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover { 
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+} */
+
+p { 
+    padding: 25px;
+}
+
+.hero { 
+    position: relative;
+}
+
+.hero img { 
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img { 
+    position: absolute;
+}
+
+
