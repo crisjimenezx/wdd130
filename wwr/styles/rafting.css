@@ -53,12 +53,13 @@ nav a {
 
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
+    text-decoration: none;
 }
 
 nav a:hover { 
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-} */
+}
 
 p { 
     padding: 25px;
@@ -77,5 +78,6 @@ p {
 article img { 
     position: absolute;
 }
+
 
 
