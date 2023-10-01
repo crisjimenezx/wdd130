@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Quicksand:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --primary-color: #160C28;
+    --secondary-color: #EFCB68;
+    --accent1-color: #160C28;
+    --accent2-color: #160C28;
+  
+    --heading-font: 'Lato', Montserrat, sans-serif;
+    --paragraph-font: 'Lato', Quicksand, sans-serif;
+  
+    --nav-background-color: #AEB7B3;
+    --nav-link-color: #EFCB68;
+    --nav-hover-link-color: #160C28;
+    --nav-hover-background-color: #E1EFE6;
+  }
+
+  header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  h1{ 
+    position: absolute;
+  }
+
+  p { 
+    padding: 25px;
+  }
+
+  article{ 
+    position: absolute;
+  }
+  
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
