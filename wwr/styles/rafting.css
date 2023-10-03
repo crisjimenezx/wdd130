@@ -32,11 +32,17 @@
   article{ 
     position: absolute;
   }
+  .hero{ 
+    position: relative;
+  }
   
   .hero img {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
   }
+
+
 
   /* Comment */
